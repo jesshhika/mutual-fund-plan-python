@@ -1,113 +1,102 @@
-Mutual Fund Investment Plan using Python
-Project Overview
+Got it — here is the **README.md content rewritten cleanly with no emojis**, fully professional and ready to copy-paste.
+
+---
+
+# README.md
+
+---
+
+# Mutual Fund Investment Plan using Python
+
+## Project Overview
 
 This project focuses on building a Python-based mutual fund investment planning system that helps investors design, analyze, and evaluate diversified portfolios. The solution uses historical market data to calculate returns, assess risk, simulate future outcomes, and recommend optimized portfolio allocations based on an investor’s risk profile.
 
 The project demonstrates how data analytics, financial modeling, and simulation techniques can be combined to support informed investment decisions.
 
-Objectives
+---
 
-Help investors build a diversified mutual fund portfolio
+## Objectives
 
-Analyze historical performance using financial metrics
+* Help investors build a diversified mutual fund portfolio
+* Analyze historical performance using financial metrics
+* Measure risk using volatility, Sharpe ratio, and downside analysis
+* Simulate future portfolio outcomes using Monte Carlo methods
+* Optimize asset allocation using mean-variance optimization
+* Generate an investment plan based on user risk preferences
 
-Measure risk using volatility, Sharpe ratio, and downside analysis
+---
 
-Simulate future portfolio outcomes using Monte Carlo methods
+## Key Features
 
-Optimize asset allocation using mean-variance optimization
+### Data Preparation
 
-Generate an investment plan based on user risk preferences
+* Historical price data collection and cleaning
+* Conversion of prices into monthly returns
+* Handling of missing values and time-series alignment
 
-Key Features
-Data Preparation
+### Portfolio Construction
 
-Historical price data collection and cleaning
+* User-defined asset selection
+* Customizable investment weights
+* Calculation of portfolio return, risk, and Sharpe ratio
 
-Conversion of prices into monthly returns
+### Risk and Return Analysis
 
-Handling of missing values and time-series alignment
+* Annualized returns and volatility
+* Risk-adjusted performance using Sharpe ratio
+* Comparison of portfolio versus individual assets
 
-Portfolio Construction
+### Monte Carlo Simulation
 
-User-defined asset selection
+* Simulation of over 1,000 future portfolio paths
+* Estimation of best, worst, and expected outcomes
+* Probability analysis of potential investment losses
 
-Customizable investment weights
+### Portfolio Optimization
 
-Calculation of portfolio return, risk, and Sharpe ratio
+* Generation of thousands of random portfolios
+* Construction of the Efficient Frontier
+* Identification of:
 
-Risk and Return Analysis
+  * Maximum Sharpe Ratio portfolio
+  * Minimum Volatility portfolio
 
-Annualized returns and volatility
+### Investment Plan Generator
 
-Risk-adjusted performance using Sharpe ratio
+* User inputs including:
 
-Comparison of portfolio versus individual assets
+  * Investment amount
+  * Time horizon
+  * Risk profile
+* Automated portfolio recommendation
+* Projection of future investment value
+* Auto-generated investment summary report
 
-Monte Carlo Simulation
+---
 
-Simulation of over 1,000 future portfolio paths
+## Technologies Used
 
-Estimation of best, worst, and expected outcomes
+* Python
+* Pandas for data manipulation
+* NumPy for numerical computations
+* Matplotlib for data visualization
+* Statistical and optimization techniques
+* Google Colab as the development environment
 
-Probability analysis of potential investment losses
+---
 
-Portfolio Optimization
+## Project Workflow
 
-Generation of thousands of random portfolios
+1. Data collection and cleaning
+2. Feature engineering and return calculation
+3. Portfolio construction
+4. Risk and performance evaluation
+5. Monte Carlo simulation
+6. Portfolio optimization
+7. Investment plan generation
+8. Final reporting and visualization
 
-Construction of the Efficient Frontier
 
-Identification of:
 
-Maximum Sharpe Ratio portfolio
 
-Minimum Volatility portfolio
-
-Investment Plan Generator
-
-User inputs including:
-
-Investment amount
-
-Time horizon
-
-Risk profile
-
-Automated portfolio recommendation
-
-Projection of future investment value
-
-Auto-generated investment summary report
-
-Technologies Used
-
-Python
-
-Pandas for data manipulation
-
-NumPy for numerical computations
-
-Matplotlib for data visualization
-
-Statistical and optimization techniques
-
-Google Colab as the development environment
-
-Project Workflow
-
-Data collection and cleaning
-
-Feature engineering and return calculation
-
-Portfolio construction
-
-Risk and performance evaluation
-
-Monte Carlo simulation
-
-Portfolio optimization
-
-Investment plan generation
-
-Final reporting and visualization
